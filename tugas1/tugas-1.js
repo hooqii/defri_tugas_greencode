@@ -26,4 +26,13 @@ let hobi = ["Batminton", "Anime", "Game"]
 let hobiBaru = "Renang"
 let menambahkanHobi = hobi.push(hobiBaru)
 
-console.log(hobi)
+let myArray = ["first", "second", "third"]
+let addArray = myArray.push("Fifth","Yahoo")
+
+myArray.push("Fifth")
+
+let a = 2
+// a++
+++a
+console.log(a)
+console.log(myArray,"\n",addArray)
