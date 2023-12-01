@@ -3,7 +3,7 @@
 // console.log(x)
 
 // let arr = [3, 1, 4, 2,2];
-// arr.sort(); 
+// arr.sort();
 // console.log(arr)
 
 // let person = {name:"Defri", age:19}
@@ -15,12 +15,28 @@
 // x.push("Yow")
 // console.log(x)
 
-let x = "*"
+let bintang = "*";
 
-for (let index = 0; index < 5;index++){
-    var bintang = ' ';
-    for (let index1 = 0; index1 < index; index1++) {
-        bintang += '* ';
+for (let index = 5; index >= 0; index--) {
+  console.log(bintang.repeat(index))
+}
+// Loop untuk menggambar baris
+for (let i = 0; i < 4; i++) {
+  let baris = '';
+  
+  // Loop untuk menggambar kolom
+  for (let j = 0; j < 4; j++) {
+    // Cek jika ini adalah baris atau kolom pertama, atau baris atau kolom terakhir
+    if (i === 0 || i === 4 - 1 || j === 0 || j === 4 - 1) {
+      baris += bintang;
+    } else {
+      baris += ' '; // Tambahkan spasi untuk bagian tengah
     }
-    console.log(bintang)
+  }
+  
+  console.log(baris);
+}
+
+for (let index = 0; index < 5; index++) {
+  console.log(bintang.repeat(index))
 }
