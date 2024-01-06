@@ -10,8 +10,8 @@ function redirectToLandingPage() {
 }
 
 function initMap() {
-  var myLatLng = { lat: -6.133969, lng: 106.733392 }; // Ganti dengan koordinat yang diinginkan
-  var map = new google.maps.Map(document.getElementById("map"), {
+  let myLatLng = { lat: -6.133969, lng: 106.733392 }; // Ganti dengan koordinat yang diinginkan
+  let map = new google.maps.Map(document.getElementById("map"), {
     center: myLatLng,
     zoom: 12,
   });

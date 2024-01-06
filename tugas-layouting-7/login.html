@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex items-center h-lvh justify-end bg-primary" style="background-color: #FAF6F4;">
+    <div class="flex px-12 mx-32 flex-col items-center bg-white h-83 w-70 flex-wrap rounded-lg justify-center shadow-xl">
+      <img src="assets/logo.png" class="h-44 w-44" alt="" />
+      <h1 class="font-sans font-bold font text-2xl text-center">Wellcome to Your Dashboard!</h1>
+      <p class="font-sans opacity-35 text-center text-sm px-10 mt-2">
+        Log in to access your personalized dashboard and take control of your
+        online experience.
+      </p>
+      <div class="flex border bg-transparent rounded-md z-10 border-gray-300 h-10 items-center w-full mt-6">
+        <img src="assets/person.png" class="h-5 w-5 mx-2" alt="" />
+        <input type="text" class="h-full bg-transparent w-full rounded-md text-sm focus:outline-none" placeholder="Username" />
+      </div>
+      <div class="flex border bg-transparent rounded-md z-10 border-gray-300 h-10 items-center w-full mt-5">
+        <img src="assets/key.png" class="h-5 w-5 mx-2 " alt="" />
+        <input type="password" class="h-full bg-transparent w-full rounded-md text-sm focus:outline-none" placeholder="Password" />
+      </div>
+      <button class="bg-black z-10 cursor-pointer text-white h-10 rounded-lg  w-full mt-8" style="cursor: pointer;">Login</button>
+      <p id="forgot-password" class="text-sm mt-4 z-10" style="color: #865439; cursor: pointer;">Forgot Password</p>
+    </div>
+    <img src="assets/vector.png" alt="" id="vector" class="absolute z-0 h-75 self-end justify-self-end pt-20" />
+    <script src="script.js"></script>
+  </body>
+</html>

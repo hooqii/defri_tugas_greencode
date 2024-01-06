@@ -1,15 +1,15 @@
-// let x = [3,1,9,4,9,];
-// x.sort();
-// console.log(x)
+let x = [3,1,9,4,9,];
+x.sort();
+console.log(x)
 
-// let arr = [3, 1, 4, 2,2];
-// arr.sort();
-// console.log(arr)
+let arr = [3, 1, 4, 2,2];
+arr.sort();
+console.log(arr)
 
-// let person = {name:"Defri", age:19}
-// person.address = "Lhokseumawe";
-// delete person.age;
-// console.log(person)
+let person = {name:"Defri", age:19}
+person.address = "Lhokseumawe";
+delete person.age;
+console.log(person)
 
 // let x = [2,4,6,3,5]
 // x.push("Yow")
@@ -82,3 +82,9 @@ console.log(isPolyndrom("alex"))
 // }
 
 // pyramid(5)
+
+
+const person = ["Alex", "David", "Alex", "Steven"]
+person.push("Brody")
+
+console.log(person)
