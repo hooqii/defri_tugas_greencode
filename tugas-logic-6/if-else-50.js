@@ -11,3 +11,6 @@ if (value >= 90 && value <= 100) {
 } else if (value <= 70) {
   console.log("D");
 }
+
+const getScore = score => 'EEEEEEDCBAA'.charAt(score/10);
+console.log(getScore(100));

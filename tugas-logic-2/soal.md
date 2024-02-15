@@ -1,0 +1,2 @@
+- Buat perulangan yang menampilkan angka genap dari 1~20
+- Index pada string
